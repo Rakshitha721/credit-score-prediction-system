@@ -4,7 +4,8 @@ import joblib
 import numpy as np
 
 # 1️⃣ Load the trained model
-model = joblib.load('models/credit_score_model.pkl')
+model = joblib.load('models/credit_score_model_light.pkl')
+
 
 # 2️⃣ Page setup
 st.set_page_config(page_title="Credit Score Prediction", page_icon="💳")
