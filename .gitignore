@@ -1,0 +1,7 @@
+# Ignore model and dataset files over 100 MB
+models/*.pkl
+*.csv
+*.zip
+*.h5
+*.sav
+*.npy
